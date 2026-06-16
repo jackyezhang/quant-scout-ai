@@ -12,13 +12,13 @@ os.environ['https_proxy'] = proxy_addr
 os.environ['no_proxy'] = "localhost,127.0.0.1,192.168.11.48,api2.pushdeer.com"
 
 BASE_URL = "http://192.168.11.48:8080"
-PUSH_DEER_KEY = "PDU41834Tchqz88rCV2hySSkAOkoKL0tImOkHXy09"
+PUSH_DEER_KEY = "你的key"
 STRATEGY_DIR = "./strategies"
 TARGET_STRATEGIES = ["rsi_mom", "alpha_break"]
 MAX_WORKERS = 20        # 并发线程数，按服务器承载力调整
 REQUEST_TIMEOUT = (2, 5)
 
-client = genai.Client(api_key="AIzaSyDt3tyx2ZpARY9aTzPXwz9PzCVyk4k61LE")
+client = genai.Client(api_key="你的KEY")
 
 def load_strategies():
     strategies = []
