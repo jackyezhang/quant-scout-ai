@@ -12,7 +12,7 @@ from combo_scanner import run_combo
 
 # ── 配置 ──────────────────────────────────────────────────────
 BASE_URL      = "http://192.168.11.48:8080"
-PUSH_DEER_KEY = "PDU41834Tchqz88rCV2hySSkAOkoKL0tImOkHXy09"
+PUSH_DEER_KEY = "你的key"
 MAX_WORKERS   = 20
 TOP_N         = 5    # 每个策略最多推送几只
 
@@ -21,7 +21,7 @@ GEMINI_RPM    = 12
 _rate_lock    = Lock()
 _last_call_ts = [0.0]   # 用列表包装以便在闭包中修改
 
-client = genai.Client(api_key="AIzaSyDt3tyx2ZpARY9aTzPXwz9PzCVyk4k61LE")
+client = genai.Client(api_key="你的key")
 
 # ── K 线获取 ──────────────────────────────────────────────────
 def get_df(code: str) -> pd.DataFrame | None:
