@@ -102,11 +102,9 @@ Bash
 
 ```
 python main.py
-
+```
 <img width="1803" height="1513" alt="941b7c00-218b-4fb0-a60b-f87e60f522e9" src="https://github.com/user-attachments/assets/caef794c-cbdc-41b0-8dcb-a57ff62d4002" />
 
-
-```
 <img width="1805" height="1524" alt="c45669c5-acaf-49a8-88c9-eca3ef778061" src="https://github.com/user-attachments/assets/1a2cd2d1-f1c6-4eb6-8801-79119230fdae" />
 
 ## 🔒 安全与隐私提示 (Security Notice)
