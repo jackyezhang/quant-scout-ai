@@ -97,15 +97,16 @@ pip install -r requirements.txt
 `"PDKEY******"`
 
 ### 执行扫描
-<img width="1744" height="1398" alt="0182d681-fa78-498e-9e5d-b10e8c4b5652" src="https://github.com/user-attachments/assets/8a33c044-61ba-4095-b320-329d0294fb3a" />
-
 
 Bash
 
 ```
 python main.py
 
+<img width="1744" height="1398" alt="0182d681-fa78-498e-9e5d-b10e8c4b5652" src="https://github.com/user-attachments/assets/8a33c044-61ba-4095-b320-329d0294fb3a" />
+
 ```
+<img width="1805" height="1524" alt="c45669c5-acaf-49a8-88c9-eca3ef778061" src="https://github.com/user-attachments/assets/1a2cd2d1-f1c6-4eb6-8801-79119230fdae" />
 
 ## 🔒 安全与隐私提示 (Security Notice)
 
